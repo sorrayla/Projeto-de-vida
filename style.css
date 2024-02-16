@@ -51,3 +51,11 @@ body{
     border-right: 4px solid var(--botao-ativo);
     border-top: none;
 }
+.botoes{
+    display: flex;
+}
+@media screen and (min-width: 768px) {
+    .botoes{
+     display: flex;
+    }
+}
